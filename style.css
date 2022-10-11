@@ -11,6 +11,11 @@ html {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
 }
+
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+}
 header {
     display: flex;
     flex-direction: column;
@@ -117,6 +122,7 @@ main {
     flex-direction: column;
     padding: 8rem 5rem 16rem;
     gap: 2rem;
+    position: relative;
 }
 
 .box {
@@ -134,7 +140,7 @@ main {
 
 .box:nth-child(4) {
     position: absolute;
-    bottom: -205%;
+    bottom: -5rem;
     left: 25%;
     width: 50%;
     text-align: center;
